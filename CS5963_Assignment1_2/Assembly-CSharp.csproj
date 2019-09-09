@@ -111,6 +111,7 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
     <Compile Include="Assets\Scripts\ColliderLogic.cs" />
     <Compile Include="Assets\Scripts\LaserGame.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
     <None Include="Assets\Oculus\VR\Resources\OVRMRUnlitTransparent.shader" />
     <None Include="Assets\Oculus\VR\Resources\OVRMRChromaKey.cginc" />
