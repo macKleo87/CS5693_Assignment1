@@ -101,5 +101,14 @@ public class LaserGame : MonoBehaviour {
             currentLight = newLight;
             timeElapsed = 0.0f;
         }
-	}
+
+        if (Input.GetButtonDown("XBox_Start"))
+        {
+            #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+            #else
+                Application.Quit();
+            #endif
+        }
+    }
 }
